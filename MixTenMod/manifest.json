@@ -1,0 +1,15 @@
+﻿{
+  "Name": "MixTenMod",
+  "Author": "RandomCL or gi199",
+  "Version": "1.0.0",
+  "Description": "给猪写的Mod",
+  "UniqueID": "gi199.MixTenMod",
+  "EntryDll": "MixTenMod.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "MinimumVersion": "1.3.0"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\obj\Debug\net6.0\MixTenMod.csproj.AssemblyReference.cache
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\obj\Debug\net6.0\MixTenMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\obj\Debug\net6.0\MixTenMod.AssemblyInfoInputs.cache
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\obj\Debug\net6.0\MixTenMod.AssemblyInfo.cs
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\obj\Debug\net6.0\MixTenMod.csproj.CoreCompileInputs.cache
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\bin\Debug\net6.0\MixTenMod.deps.json
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\bin\Debug\net6.0\MixTenMod.dll
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\bin\Debug\net6.0\GenericModConfigMenu.dll
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\obj\Debug\net6.0\MixTenMod.csproj.CopyComplete
+C:\Users\ZXH\Desktop\MixTenMod\MixTenMod\obj\Debug\net6.0\MixTenMod.dll
