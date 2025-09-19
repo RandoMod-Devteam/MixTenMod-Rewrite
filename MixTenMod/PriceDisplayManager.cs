@@ -7,16 +7,14 @@ using StardewValley.Menus;
 namespace MixTenMod;
 public class PriceDisplayManager
 {
-    private readonly IModHelper _helper;
     private readonly IMonitor _monitor;
     private readonly ModConfig _config;
     
     private Item? _hoveredItem;
     private Vector2 _hoverPosition = Vector2.Zero;
 
-    public PriceDisplayManager(IModHelper helper, IMonitor monitor,ModConfig config)
+    public PriceDisplayManager(IMonitor monitor,ModConfig config)
     {
-        _helper = helper;
         _monitor = monitor;
         _config = config;
     }

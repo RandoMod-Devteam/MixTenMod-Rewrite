@@ -14,9 +14,7 @@ public class RequestCenter
     private readonly PriceDisplayManager _priceDisplayManager;
     private readonly IncomeTracker _incomeTracker;
     private readonly ToolManager _toolManager;
-    private static readonly IGenericModConfigMenuApi _api = null!;
-
-    // 添加构造函数初始化所有依赖
+    private static readonly IGenericModConfigMenuApi Api = null!;
     public RequestCenter(
         IModHelper helper, 
         IMonitor monitor, 
@@ -35,7 +33,7 @@ public class RequestCenter
     }
     public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
     {
-        var configCentre = new ModConfigCenter(Helper,StaticConfig,_api); 
+        ModConfigCenter configCentre = new ModConfigCenter(Helper,StaticConfig,Api); 
         configCentre.SetupConfigMenu();
     }
 

@@ -6,16 +6,14 @@ using StardewValley;
 namespace MixTenMod;
 public class IncomeTracker
 {
-    private readonly IModHelper _helper;
     private readonly IMonitor _monitor;
     private readonly ModConfig _config;
     public int DailyIncome => _dailyIncome;
 
     private int _dailyIncome;
 
-    public IncomeTracker(IModHelper helper, IMonitor monitor, ModConfig config)
+    public IncomeTracker(IMonitor monitor, ModConfig config)
     {
-        _helper = helper;
         _monitor = monitor;
         _config = config;
     }

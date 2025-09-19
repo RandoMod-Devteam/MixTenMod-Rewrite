@@ -8,8 +8,8 @@ public class ModEntry : Mod
     {
         ModConfig config = helper.ReadConfig<ModConfig>();
         // 初始化管理器实例
-        var incomeTracker = new IncomeTracker(helper, Monitor, config);
-        var priceDisplayManager = new PriceDisplayManager(helper, Monitor, config);
+        var incomeTracker = new IncomeTracker(Monitor, config);
+        var priceDisplayManager = new PriceDisplayManager(Monitor, config);
         var toolManager = new ToolManager(Monitor, config);
             
 

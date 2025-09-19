@@ -8,49 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3bb9099-bedb-4c6f-82bd-f79b2ac82291" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/MixTenMod.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/ModEntry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/PriceDisplayManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/RequestCenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/ToolManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/GenericModConfigMenu.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod 1.0.0.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/config/ModConfigCenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/MixTenMod.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/MixTenMod.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/MixTenMod.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MixTenMod/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MixTenMod/sell/RemoteSellMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/ModEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/ModEntry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/PriceDisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/PriceDisplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/RequestCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/RequestCenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod 1.0.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod 1.0.0.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gi199&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RandoMod-Devteam/MixTenMod-Rewrite.git&quot;,
+    &quot;accountId&quot;: &quot;ca6cd4e2-f75a-4ebb-9a49-daead52e6f90&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/aa1f513a94f04ef6a35f2d5b4a3721bf5fa600/8c/e66f5466/InventoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/433c8f3fb1be0304bb09a68046bc36919c2092c66049149b6496b8f6a9d4d6/Mod.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,9 +70,10 @@
     <setting file="file://$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MixTenMod/sell/RemoteSellMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -98,22 +83,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET 项目.MixTenMod.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.qodana",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET 项目.MixTenMod.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="QodanaCloudProjectLink">
+    <option name="lastReportId" value="l0adZ0" />
+    <option name="linkedProjectId" value="eoxoV" />
+    <option name="linkedProjectName" value="MixTenMod" />
+    <option name="organizationId" value="YOJev" />
+    <option name="userId" value="j4gLX" />
+  </component>
+  <component name="QodanaHighlightedReportService">
+    <option name="cloudReportPersistedInfo">
+      <CloudReportPersistedInfo>
+        <option name="projectId" value="eoxoV" />
+        <option name="reportId" value="l0adZ0" />
+      </CloudReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="MixTenMod" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="D:/SteamLibrary/steamapps/common/Stardew Valley/StardewModdingAPI.exe" />
@@ -148,7 +152,9 @@
       <option name="presentableId" value="Default" />
       <updated>1756638703556</updated>
       <workItem from="1756638704083" duration="5131000" />
-      <workItem from="1757155988676" duration="1975000" />
+      <workItem from="1757155988676" duration="3032000" />
+      <workItem from="1757166319804" duration="2753000" />
+      <workItem from="1758248546099" duration="1575000" />
     </task>
     <servers />
   </component>
@@ -156,6 +162,17 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

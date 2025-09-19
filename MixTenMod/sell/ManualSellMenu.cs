@@ -1,7 +1,6 @@
 ﻿using MixTenMod.config;
 using StardewModdingAPI;
 using StardewValley;
-using StardewValley.Menus;
 
 namespace MixTenMod.sell
 {
@@ -9,7 +8,6 @@ namespace MixTenMod.sell
     {
         private readonly ModConfig _config;
         private readonly IMonitor _monitor;
-        private readonly InventoryMenu _inventoryMenu;
         private readonly IncomeTracker _incomeTracker;
         
         public ManualSellMenu(

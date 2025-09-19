@@ -9,7 +9,6 @@ namespace MixTenMod.sell
     {
         private const int ItemSize = 64;
         private const int Spacing = 16;
-        private InventoryMenu _inventoryMenu;
         
         protected InventoryMenu InventoryMenu;
         protected Item HeldItem;
