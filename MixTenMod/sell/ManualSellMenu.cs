@@ -1,20 +1,22 @@
 ﻿using MixTenMod.config;
 using StardewModdingAPI;
 using StardewValley;
+using StardewValley.Menus;
 
 namespace MixTenMod.sell
 {
     public class ManualSellMenu : BaseSellMenu
     {
-        private readonly ModConfig _config;
-        private readonly IMonitor _monitor;
         private readonly IncomeTracker _incomeTracker;
-        
+        private readonly IMonitor _monitor;
+        private ModConfig _config;
+        private static InventoryMenu _inventoryMenu = null!;
+        private static Item _heldItem = null!;
         public ManualSellMenu(
             IMonitor monitor, 
             ModConfig config,
             IncomeTracker incomeTracker) 
-            : base("手动出售物品")
+            : base("手动出售物品",_inventoryMenu,_heldItem)
         {
             _monitor = monitor;
             _config = config;
@@ -32,18 +34,10 @@ namespace MixTenMod.sell
                     Item item = Game1.player.Items[slot];
                     if (item != null)
                     {
-                        // 第一次点击：拿起物品
-                        if (HeldItem == null!)
-                        {
                             HeldItem = item;
                             Game1.playSound("pickUpItem");
-                        }
-                        // 第二次点击：出售物品
-                        else
-                        {
                             SellItem(item);
                             HeldItem = null!;
-                        }
                     }
                 }
             }
@@ -51,7 +45,7 @@ namespace MixTenMod.sell
         
         private void SellItem(Item item)
         {
-            if (item == null! || !item.canBeShipped()) return;
+            if (!item.canBeShipped()) return;
             
             int price = item.sellToStorePrice();
             
@@ -59,7 +53,7 @@ namespace MixTenMod.sell
             item.Stack--;
             if (item.Stack <= 0)
             {
-                Game1.player.removeItemFromInventory(item);
+                Game1.player.Items[Game1.player.getIndexOfInventoryItem(item)] = null;
             }
             
             // 添加收入

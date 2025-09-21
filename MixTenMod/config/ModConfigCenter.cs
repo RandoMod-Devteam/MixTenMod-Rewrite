@@ -8,13 +8,14 @@ namespace MixTenMod.config
         private readonly IModHelper _helper;
         private ModConfig _config;
         private readonly IGenericModConfigMenuApi _api;
-        readonly IManifest _manifest = null!;
+        readonly IManifest _manifest;
 
-        public ModConfigCenter(IModHelper helper, ModConfig config, IGenericModConfigMenuApi api)
+        public ModConfigCenter(IModHelper helper, ModConfig config, IGenericModConfigMenuApi api, IManifest manifest)
         {
             _helper = helper;
             _config = config;
             _api = api;
+            _manifest = manifest;
         }
 
         public void SetupConfigMenu()

@@ -44,6 +44,7 @@ namespace MixTenMod.sell
             if (_menuOpen) return;
             try
             {
+                
                 var sellMenu = new ManualSellMenu(_monitor, _config, _incomeTracker);
                 Game1.activeClickableMenu = sellMenu;
                 _menuOpen = true;
