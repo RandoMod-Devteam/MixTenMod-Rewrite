@@ -8,13 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Reference Include="GenericModConfigMenu">
         <HintPath>D:\SteamLibrary\steamapps\common\Stardew Valley\Mods\GenericModConfigMenu\GenericModConfigMenu.dll</HintPath>
       </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
     </ItemGroup>
 
 </Project>

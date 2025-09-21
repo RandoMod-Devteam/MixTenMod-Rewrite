@@ -10,14 +10,16 @@ namespace MixTenMod.sell
         private const int ItemSize = 64;
         private const int Spacing = 16;
         
-        protected InventoryMenu InventoryMenu;
-        protected Item HeldItem;
+        protected InventoryMenu? InventoryMenu;
+        protected Item? HeldItem;
         private readonly string _title;
         private readonly InventoryMenu.highlightThisItem _highlightMethod = null!;
         
-        protected BaseSellMenu(string title)
+        protected BaseSellMenu(string title,InventoryMenu inventoryMenu,Item heldItem)
         {
+            InventoryMenu = inventoryMenu;
             _title = title;
+            HeldItem = heldItem;
             int xPosition = (Game1.viewport.Width - width) / 2;
             int yPosition = (Game1.viewport.Height - height) / 2;
             

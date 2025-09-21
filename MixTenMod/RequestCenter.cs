@@ -15,13 +15,15 @@ public class RequestCenter
     private readonly IncomeTracker _incomeTracker;
     private readonly ToolManager _toolManager;
     private static readonly IGenericModConfigMenuApi Api = null!;
+    readonly IManifest _manifest;
     public RequestCenter(
         IModHelper helper, 
         IMonitor monitor, 
         ModConfig config,
         IncomeTracker incomeTracker,
         PriceDisplayManager priceDisplayManager,
-        ToolManager toolManager
+        ToolManager toolManager,
+        IManifest manifest
         )
     {
         _incomeTracker = incomeTracker;
@@ -30,10 +32,12 @@ public class RequestCenter
         // 初始化 ManualSellingManager (需补全其实现)
         _sellingManager = new ManualSellingManager(helper, monitor, config,_incomeTracker);
         _sellingManager.SetIncomeTracker(_incomeTracker);
+        _manifest = manifest;
     }
     public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
-    {
-        ModConfigCenter configCentre = new ModConfigCenter(Helper,StaticConfig,Api); 
+    { 
+        
+        ModConfigCenter configCentre = new ModConfigCenter(Helper,StaticConfig,Api,_manifest); 
         configCentre.SetupConfigMenu();
     }
 
