@@ -1,7 +1,7 @@
 ﻿{
   "Name": "MixTenMod",
   "Author": "RandomCL or gi199",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "给猪写的Mod",
   "UniqueID": "gi199.MixTenMod",
   "EntryDll": "MixTenMod.dll",
