@@ -1,0 +1,6 @@
+﻿#C# Build
+MixTenMod/bin/*
+MixTenMod/obj/*
+#idea
+.idea/*
+MixTenMod/.idea/*

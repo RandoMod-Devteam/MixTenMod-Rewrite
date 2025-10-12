@@ -10,22 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3bb9099-bedb-4c6f-82bd-f79b2ac82291" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/MixTenMod.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/MixTenMod.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/ModEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/ModEntry.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/RequestCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/RequestCenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod 1.0.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod 1.0.0.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/config/ModConfigCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/config/ModConfigCenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/RemoteSellMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +40,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/RandoMod-Devteam/MixTenMod-Rewrite.git&quot;,
     &quot;accountId&quot;: &quot;ca6cd4e2-f75a-4ebb-9a49-daead52e6f90&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;RandoMod-Devteam&quot;,
+    &quot;repository&quot;: &quot;MixTenMod-Rewrite&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -104,22 +99,10 @@
   }
 }</component>
   <component name="QodanaCloudProjectLink">
-    <option name="lastReportId" value="l0adZ0" />
     <option name="linkedProjectId" value="eoxoV" />
     <option name="linkedProjectName" value="MixTenMod" />
     <option name="organizationId" value="YOJev" />
     <option name="userId" value="j4gLX" />
-  </component>
-  <component name="QodanaHighlightedReportService">
-    <option name="cloudReportPersistedInfo">
-      <CloudReportPersistedInfo>
-        <option name="projectId" value="eoxoV" />
-        <option name="reportId" value="l0adZ0" />
-      </CloudReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
   </component>
   <component name="RunManager" selected=".NET 项目.MixTenMod">
     <configuration name="MixTenMod" type="DotNetProject" factoryName=".NET Project">
@@ -127,10 +110,8 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="D:/SteamLibrary/steamapps/common/Stardew Valley" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -151,10 +132,8 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -183,7 +162,8 @@
       <workItem from="1758248546099" duration="2403000" />
       <workItem from="1758271519441" duration="1005000" />
       <workItem from="1758280804936" duration="2466000" />
-      <workItem from="1758429286044" duration="2063000" />
+      <workItem from="1758429286044" duration="2679000" />
+      <workItem from="1759810283367" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -193,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758250178410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1.0.1 upgrade">
+      <option name="closed" value="true" />
+      <created>1758432739164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758432739164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="v1.0.1 upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.1 upgrade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
