@@ -14,12 +14,12 @@ namespace MixTenMod.config
         public bool ShowPrices { get; set; } = true;
         
         // 调试模式开关
-        public bool DebugMode = false;
+        public bool DebugMode { get; set; } = false;
 
         // 工具切换快捷键
-        public KeybindList ToolSwitchKey = KeybindList.Parse("LeftControl+N");
+        public KeybindList ToolSwitchKey { get; set; } = KeybindList.Parse("LeftControl+N");
         
         // 手动出售快捷键
-        public readonly KeybindList ManualSellKey = KeybindList.Parse("LeftControl+M");
+        public KeybindList ManualSellKey { get; set; } = KeybindList.Parse("LeftControl+M");
     }
 }

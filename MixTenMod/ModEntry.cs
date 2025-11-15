@@ -1,4 +1,4 @@
-﻿using MixTenMod.config;
+using MixTenMod.config;
 using StardewModdingAPI;
 namespace MixTenMod;
 public class ModEntry : Mod
@@ -11,10 +11,9 @@ public class ModEntry : Mod
         var incomeTracker = new IncomeTracker(Monitor, config);
         var priceDisplayManager = new PriceDisplayManager(Monitor, config);
         var toolManager = new ToolManager(Monitor, config);
-        IManifest manifest = null!;
 
         // 创建 RequestCenter 并传入依赖项
-        _requestCenter = new RequestCenter(helper, Monitor, config,incomeTracker, priceDisplayManager, toolManager,manifest); 
+        _requestCenter = new RequestCenter(helper, Monitor, config, incomeTracker, priceDisplayManager, toolManager, this.ModManifest);
         Helper.Events.GameLoop.GameLaunched += _requestCenter.OnGameLaunched;
         Helper.Events.GameLoop.DayStarted += _requestCenter.OnDayStarted;
         Helper.Events.Input.ButtonPressed += _requestCenter.OnButtonPressed;

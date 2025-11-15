@@ -1,4 +1,4 @@
-﻿using GenericModConfigMenu;
+using GenericModConfigMenu;
 using StardewModdingAPI;
 
 namespace MixTenMod.config
@@ -7,10 +7,10 @@ namespace MixTenMod.config
     {
         private readonly IModHelper _helper;
         private ModConfig _config;
-        private readonly IGenericModConfigMenuApi _api;
+        private readonly IGenericModConfigMenuApi? _api;
         readonly IManifest _manifest;
 
-        public ModConfigCenter(IModHelper helper, ModConfig config, IGenericModConfigMenuApi api, IManifest manifest)
+        public ModConfigCenter(IModHelper helper, ModConfig config, IGenericModConfigMenuApi? api, IManifest manifest)
         {
             _helper = helper;
             _config = config;
@@ -20,6 +20,11 @@ namespace MixTenMod.config
 
         public void SetupConfigMenu()
         {        
+            if (_api == null)
+            {
+                // GenericModConfigMenu is not installed, do nothing
+                return;
+            }
             // 注册配置菜单
             _api.Register(
                 mod: _manifest,
@@ -60,7 +65,13 @@ namespace MixTenMod.config
                 setValue: value => _config.ToolSwitchKey = value
             );
 
-            // 添加其他配置项...
+            _api.AddKeybindList(
+                mod: _manifest,
+                name: () => "手动出售键",
+                tooltip: () => "打开手动出售菜单",
+                getValue: () => _config.ManualSellKey,
+                setValue: value => _config.ManualSellKey = value
+            );
         }
     }
 }
