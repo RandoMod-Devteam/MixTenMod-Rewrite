@@ -1,8 +1,8 @@
 ﻿{
   "Name": "MixTenMod",
-  "Author": "RandomCL or gi199",
-  "Version": "1.0.1",
-  "Description": "给猪写的Mod",
+  "Author": "RandomCL",
+  "Version": "1.0.2",
+  "Description": "A Good Mod",
   "UniqueID": "gi199.MixTenMod",
   "EntryDll": "MixTenMod.dll",
   "MinimumApiVersion": "4.0.0",

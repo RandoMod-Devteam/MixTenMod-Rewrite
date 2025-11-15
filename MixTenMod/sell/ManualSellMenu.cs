@@ -1,4 +1,4 @@
-﻿using MixTenMod.config;
+using MixTenMod.config;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Menus;
@@ -9,35 +9,33 @@ namespace MixTenMod.sell
     {
         private readonly IncomeTracker _incomeTracker;
         private readonly IMonitor _monitor;
-        private ModConfig _config;
-        private static InventoryMenu _inventoryMenu = null!;
-        private static Item _heldItem = null!;
+        private readonly ModConfig _config;
         public ManualSellMenu(
             IMonitor monitor, 
-            ModConfig config,
-            IncomeTracker incomeTracker) 
-            : base("手动出售物品",_inventoryMenu,_heldItem)
+            IncomeTracker incomeTracker, 
+            ModConfig config) 
+            : base("手动出售物品")
         {
             _monitor = monitor;
-            _config = config;
             _incomeTracker = incomeTracker;
+            _config = config;
         }
         
         protected override void HandleLeftClick(int x, int y)
         {
             // 处理库存点击
-            if (InventoryMenu.isWithinBounds(x, y))
+            if (_inventoryMenu.isWithinBounds(x, y))
             {
-                int slot = InventoryMenu.getInventoryPositionOfClick(x, y);
+                int slot = _inventoryMenu.getInventoryPositionOfClick(x, y);
                 if (slot >= 0 && slot < Game1.player.Items.Count)
                 {
                     Item item = Game1.player.Items[slot];
                     if (item != null)
                     {
-                            HeldItem = item;
+                            _heldItem = item;
                             Game1.playSound("pickUpItem");
                             SellItem(item);
-                            HeldItem = null!;
+                            _heldItem = null!;
                     }
                 }
             }

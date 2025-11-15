@@ -10,7 +10,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e3bb9099-bedb-4c6f-82bd-f79b2ac82291" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/ToolManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/ToolManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +59,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/aa1f513a94f04ef6a35f2d5b4a3721bf5fa600/8c/e66f5466/InventoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/433c8f3fb1be0304bb09a68046bc36919c2092c66049149b6496b8f6a9d4d6/Mod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/825dbf305da148eb4e3dc34f39f9e77fdd79a6d615e7a13ffe994c37d8ea37/IManifest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d2d5ab787bae71c576a311d4a383e2849471861772a5dbca14a68ef1ffcebcc9/IMod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/ModEntry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/PriceDisplayManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +67,7 @@
     <setting file="file://$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/config/ModConfigCenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ZXH/Desktop/MixTenMod/MixTenMod/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +91,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -98,11 +102,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="QodanaCloudProjectLink">
-    <option name="linkedProjectId" value="eoxoV" />
-    <option name="linkedProjectName" value="MixTenMod" />
-    <option name="organizationId" value="YOJev" />
-    <option name="userId" value="j4gLX" />
+  <component name="QodanaCIConfigService">
+    <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
   </component>
   <component name="RunManager" selected=".NET 项目.MixTenMod">
     <configuration name="MixTenMod" type="DotNetProject" factoryName=".NET Project">
@@ -164,6 +165,9 @@
       <workItem from="1758280804936" duration="2466000" />
       <workItem from="1758429286044" duration="2679000" />
       <workItem from="1759810283367" duration="10000" />
+      <workItem from="1760273459062" duration="1183000" />
+      <workItem from="1763042383281" duration="172000" />
+      <workItem from="1763138463948" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -181,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758432739164</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.0.1 UPGRADE">
+      <option name="closed" value="true" />
+      <created>1760273511959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760273511959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +216,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First" />
     <MESSAGE value="v1.0.1 upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.1 upgrade" />
+    <MESSAGE value="1.0.1 UPGRADE" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1 UPGRADE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,5 +240,13 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

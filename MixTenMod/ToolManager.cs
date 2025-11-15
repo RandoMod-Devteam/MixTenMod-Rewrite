@@ -30,7 +30,7 @@ public class ToolManager
         
         try
         {
-            if (_config.ToolSwitchKey.JustPressed())
+            if (_config.ToolSwitchKey.JustPressed()&& !e.IsSuppressed())
             {
                 SwitchToNextTool();
             }
