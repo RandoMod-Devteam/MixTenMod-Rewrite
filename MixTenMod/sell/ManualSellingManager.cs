@@ -20,6 +20,7 @@ namespace MixTenMod.sell
             _monitor = monitor;
             _config = config;
             _incomeTracker = incomeTracker;
+            _menuOpen = false;
         }
         
         public void SetIncomeTracker(IncomeTracker incomeTracker)
@@ -69,7 +70,9 @@ namespace MixTenMod.sell
             var oldMenuName = e.OldMenu?.GetType().Name ?? "null";
             var newMenuName = e.NewMenu?.GetType().Name ?? "null";
             _monitor.Log($"MenuChanged: OldMenu={oldMenuName}, NewMenu={newMenuName}", LogLevel.Info);
-            if (e.NewMenu == null && _menuOpen)
+            
+            // Check if our menu was closed
+            if (oldMenuName == "ManualSellMenu" && newMenuName != "ManualSellMenu")
             {
                 _monitor.Log("Closing sell menu", LogLevel.Info);
                 _menuOpen = false;
