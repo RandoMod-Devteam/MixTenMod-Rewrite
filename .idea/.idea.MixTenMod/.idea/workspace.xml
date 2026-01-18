@@ -9,14 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3bb9099-bedb-4c6f-82bd-f79b2ac82291" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MixTenMod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/IncomeTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/ToolManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/ToolManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/config/ModConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/bin/Debug/net6.0/MixTenMod.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/Debug/net6.0/MixTenMod.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/MixTenMod.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/MixTenMod.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MixTenMod/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/BaseSellMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MixTenMod/sell/ManualSellingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,24 +85,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET 项目.MixTenMod.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET 项目.MixTenMod.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "v1.0.2-upgrade",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="QodanaCIConfigService">
     <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
   </component>
@@ -168,6 +169,7 @@
       <workItem from="1760273459062" duration="1183000" />
       <workItem from="1763042383281" duration="172000" />
       <workItem from="1763138463948" duration="40000" />
+      <workItem from="1768726312426" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />

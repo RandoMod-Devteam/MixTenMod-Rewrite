@@ -34,14 +34,14 @@ namespace MixTenMod.sell
                     {
                             _heldItem = item;
                             Game1.playSound("pickUpItem");
-                            SellItem(item);
-                            _heldItem = null!;
+                            SellItem(item, slot);
+                            _heldItem = null;
                     }
                 }
             }
         }
         
-        private void SellItem(Item item)
+        private void SellItem(Item item, int slot)
         {
             if (!item.canBeShipped()) return;
             
@@ -51,7 +51,7 @@ namespace MixTenMod.sell
             item.Stack--;
             if (item.Stack <= 0)
             {
-                Game1.player.Items[Game1.player.getIndexOfInventoryItem(item)] = null;
+                Game1.player.Items[slot] = null;
             }
             
             // 添加收入

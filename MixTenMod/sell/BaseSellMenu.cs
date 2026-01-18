@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using StardewValley;
 using StardewValley.Menus;
 
@@ -35,6 +36,12 @@ namespace MixTenMod.sell
             );
         }
         
+        public override void update(GameTime time)
+        {
+            base.update(time);
+            _inventoryMenu.update(time);
+        }
+        
         public override void draw(SpriteBatch b)
         {
             // 调用基类draw方法
@@ -65,7 +72,7 @@ namespace MixTenMod.sell
             }
             
             // 绘制帮助文本
-            string helpText = "左键点击物品出售 | 右键取消";
+            string helpText = "左键点击物品出售 | 右键取消 | ESC关闭菜单";
             Utility.drawTextWithShadow(b, helpText, Game1.smallFont, 
                 new Vector2(xPositionOnScreen + Spacing, yPositionOnScreen + Height - 40), 
                 Color.LightGray);
@@ -77,13 +84,36 @@ namespace MixTenMod.sell
         public override void receiveLeftClick(int x, int y, bool playSound = true)
         {
             base.receiveLeftClick(x, y, playSound);
+            _inventoryMenu.receiveLeftClick(x, y, playSound);
             HandleLeftClick(x, y);
         }
         
         public override void receiveRightClick(int x, int y, bool playSound = true)
         {
             base.receiveRightClick(x, y, playSound);
-            _heldItem = null!;
+            _inventoryMenu.receiveRightClick(x, y, playSound);
+            _heldItem = null;
+        }
+        
+        public override void receiveScrollWheelAction(int direction)
+        {
+            base.receiveScrollWheelAction(direction);
+            _inventoryMenu.receiveScrollWheelAction(direction);
+        }
+        
+        public override void receiveKeyPress(Keys key)
+        {
+            base.receiveKeyPress(key);
+            if (key == Keys.Escape)
+            {
+                Game1.exitActiveMenu();
+            }
+        }
+        
+        public override void performHoverAction(int x, int y)
+        {
+            base.performHoverAction(x, y);
+            _inventoryMenu.performHoverAction(x, y);
         }
         
         protected abstract void HandleLeftClick(int x, int y);
