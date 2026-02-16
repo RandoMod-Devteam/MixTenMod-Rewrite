@@ -1,0 +1,28 @@
+{
+  "item.speed-potion.name": "速度剂",
+  "item.speed-potion.description": "喝下去后感觉身轻如燕，移动速度大幅提升。效果可叠加（最多3倍）。",
+
+  "item.rl11.name": "RL-11",
+  "item.rl11.description": "一把紧凑型冲锋枪式枪械，弹匣容量12发。射速快，性能可靠。",
+
+  "item.dehydrated-ammo.name": "失水弹",
+  "item.dehydrated-ammo.description": "特殊弹药，使作物脱水以防御16格范围内的乌鸦。警告：浇水时间翻倍。",
+
+  "config.fast-watering.title": "快速浇水",
+  "config.fast-watering.desc": "启用一键即时浇水功能",
+  "config.watering-range.title": "浇水范围",
+  "config.watering-range.desc": "快速浇水的范围半径（1 = 3x3区域）",
+
+  "message.speed-potion.use": "速度提升！当前倍率：{{multiplier}}倍",
+  "message.speed-potion.max": "速度已达到最大值（3倍）！",
+  "message.speed-potion.reset": "速度剂效果已消失。",
+
+  "message.dehydrated-ammo.activate": "失水弹已激活！16格范围内的乌鸦将被防御。",
+  "message.dehydrated-ammo.deactivate": "失水弹已停用。",
+  "message.dehydrated-ammo.loaded": "已向RL-11装填{{amount}}发失水弹",
+
+  "message.rl11.no-energy": "能量不足！无法射击。",
+
+  "gui.gun.name": "RL-11",
+  "gui.gun.reloading": "装填中..."
+}

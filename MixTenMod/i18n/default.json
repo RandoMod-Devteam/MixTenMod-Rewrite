@@ -1,0 +1,28 @@
+{
+  "item.speed-potion.name": "Speed Potion",
+  "item.speed-potion.description": "Drink this to feel light as a feather. Movement speed greatly increased. Effects stack (up to 3x).",
+
+  "item.rl11.name": "RL-11",
+  "item.rl11.description": "A compact SMG-style firearm with 12-round magazine capacity. High rate of fire and reliable performance.",
+
+  "item.dehydrated-ammo.name": "Dehydrated Ammo",
+  "item.dehydrated-ammo.description": "Special ammunition that dehydrates crops to repel crows within 16 tiles. Warning: Doubles watering time.",
+
+  "config.fast-watering.title": "Fast Watering",
+  "config.fast-watering.desc": "Enable instant watering with one click",
+  "config.watering-range.title": "Watering Range",
+  "config.watering-range.desc": "Range radius for fast watering (1 = 3x3 area)",
+
+  "message.speed-potion.use": "Speed increased! Current multiplier: {{multiplier}}x",
+  "message.speed-potion.max": "Speed is already at maximum (3x)!",
+  "message.speed-potion.reset": "Speed potion effects have worn off.",
+
+  "message.dehydrated-ammo.activate": "Dehydrated Ammo activated! Crows will be repelled within 16 tiles.",
+  "message.dehydrated-ammo.deactivate": "Dehydrated Ammo deactivated.",
+  "message.dehydrated-ammo.loaded": "Loaded {{amount}} Dehydrated Ammo into RL-11",
+
+  "message.rl11.no-energy": "Not enough energy! Cannot fire.",
+
+  "gui.gun.name": "RL-11",
+  "gui.gun.reloading": "RELOADING..."
+}

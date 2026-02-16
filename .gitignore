@@ -1,6 +1,6 @@
 ﻿#C# Build
-MixTenMod/bin/*
-MixTenMod/obj/*
+*/bin/*
+*/obj/*
 #idea
 .idea/*
 MixTenMod/.idea/*

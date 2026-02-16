@@ -1,15 +1,15 @@
-﻿{
+{
   "Name": "MixTenMod",
   "Author": "RandomCL",
   "Version": "1.0.2",
   "Description": "A Good Mod",
-  "UniqueID": "gi199.MixTenMod",
+  "UniqueID": "RandomCL.MixTenMod",
   "EntryDll": "MixTenMod.dll",
   "MinimumApiVersion": "4.0.0",
   "Dependencies": [
     {
       "UniqueID": "spacechase0.GenericModConfigMenu",
-      "MinimumVersion": "1.3.0"
+      "IsRequired": false
     }
   ]
 }
